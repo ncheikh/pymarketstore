@@ -43,7 +43,7 @@ setup(
     keywords='database,pandas,financial,timeseries',
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=[
-        'msgpack-python',
+        'msgpack',
         'numpy',
         'requests',
         'pandas',
